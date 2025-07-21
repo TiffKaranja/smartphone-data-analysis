@@ -1,86 +1,71 @@
-📱 Smartphone Price Prediction & Feature Analysis
-This project explores a dataset of smartphone specifications to understand what features influence pricing. It includes exploratory data analysis (EDA), feature engineering, visualization, and machine learning models to predict smartphone prices.
+📱 Smartphone Price Prediction Project
+This project focuses on predicting smartphone prices using a variety of features. It's a great beginner-level regression project that touches on all essential steps in a machine learning workflow — from EDA to model evaluation.
 
-🔍 Project Objectives
-Understand relationships between smartphone features and price
+🔍 Project Overview
+Goal: Predict the price of smartphones based on specifications.
 
-Visualize key trends (e.g. RAM vs Price, Brand vs Price)
+Dataset: Kaggle Smartphone Specifications Dataset.
 
-Build predictive models (Linear Regression, Decision Tree Regressor)
+Tech Stack: Python, Pandas, Seaborn, Scikit-learn, Matplotlib.
 
-Identify important features using feature selection methods
+💡 Key Objectives
+Understand what features affect smartphone prices.
 
-📁 Dataset
-Source: Kaggle (Smartphone Specifications & Prices)
+Perform data cleaning and feature engineering.
 
-Features include: brand, model, RAM, internal memory, battery, camera specs, 5G, NFC, etc.
+Train and evaluate regression models.
 
-Target variable: Price
+Interpret model results using feature importance.
 
-🛠️ Key Steps
-✅ Data Cleaning & Preparation
-Handled missing values
+🧰 What I Did
+Performed Exploratory Data Analysis (EDA)
 
-Converted units (e.g., GB, mAh)
+Handled missing values and feature encoding
 
 Created new features like Price_per_GB
 
-📊 Exploratory Data Analysis (EDA)
-Histograms, boxplots, scatterplots, and heatmaps
+Applied feature scaling with StandardScaler
 
-Grouped data by brand and RAM
+Trained models: Linear Regression, Decision Tree, XGBoost
 
-Analyzed trends using Seaborn visualizations
+Compared model performance using MAE, RMSE, and R²
 
-🧠 Machine Learning
-Train-test split (80/20)
+Visualized predictions and feature importance
 
-Standardized features using StandardScaler
+Documented Q&A learning-style markdown (Section-wise)
 
-Trained models:
+📊 Features Used
+Some of the main features considered:
 
+RAM, Internal Memory
+
+Battery Capacity, Fast Charging
+
+Processor Speed, Number of Cores
+
+Screen Size, Resolution
+
+Number of Rear/Front Cameras
+
+5G, NFC, IR Blaster Support
+
+🧪 Models Trained
 Linear Regression
 
 Decision Tree Regressor
 
-🏆 Feature Selection
-Used SelectKBest with f_regression
+XGBoost Regressor
 
-Visualized top contributing features
+📖 What I Learned
+The importance of feature scaling before regression
 
-Interpreted model coefficients and importances
+How to derive insights using feature importance
 
-📈 Results
-Found strong relationships between RAM, Storage, and Price
+How model performance changes with different feature sets
 
-Decision Tree performed better than simple regression on this dataset
+Practice with scikit-learn's end-to-end ML pipeline
 
-Top 3 features selected using SelectKBest
-
-💾 Output & Visualizations
-All key plots were saved using plt.savefig(), including:
-
-Price distribution
-
-Correlation heatmap
-
-RAM vs Price
-
-Brand comparison
-
-Feature importance chart
-
-📚 Tools & Libraries
-Python
-
-Pandas, NumPy
-
-Seaborn, Matplotlib
-
-Scikit-learn
-
-🙋‍♀️ Author
+✍️ Author
 Tiffany Karanja
-Junior Data Scientist | Python, SQL & Machine Learning
-LinkedIn • GitHub
-
+Data Scientist | Python | SQL | Power BI
+LinkedIn | GitHub
