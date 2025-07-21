@@ -79,11 +79,8 @@ Seaborn, Matplotlib
 
 Scikit-learn
 
-🚀 How to Use
-Clone this repo
+🙋‍♀️ Author
+Tiffany Karanja
+Junior Data Scientist | Python, SQL & Machine Learning
+LinkedIn • GitHub
 
-Run the Jupyter notebook smartphone_analysis.ipynb
-
-Install requirements if needed (pip install -r requirements.txt)
-
-Explore the saved plots or modify the analysis for deeper insights
